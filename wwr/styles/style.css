@@ -1,15 +1,57 @@
 
 #background {
     height: 725px;
+    background-color: rgb(226, 185, 192);
 }
                 
 body {
-    background-color: #fcfbfb; 
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 4em;
 }
 header {
-    background-color:rgba(20,30,13, .7);
+    color: black ;
+    background-color: aquamarine;
 }
 nav a:hover {
     background-color: black;
+    color: #d9c2a3;
+}   
+.logo{
+    width: 80px;
 }
+
+.icon {
+    width: 80px;
+}
+
+#hero-img{
+    width: 100%;
+}
+
+nav a {
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+}
+
+.book, .join a:hover{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer p {
+    background-color: rgb(126, 126, 135);
+    font-size: 1.2em;
+
+}     
+footer p a:hover {
+    text-decoration: underline;
+}    
+
                     
