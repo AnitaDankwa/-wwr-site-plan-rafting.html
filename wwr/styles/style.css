@@ -44,6 +44,12 @@ nav a {
     text-decoration: none;
 }
 
+#hero-msg h1, #hero-msg h4{
+    text-align: center;
+}
+
+
+
 .book, .join a:hover{
     text-align: center;
     color: black;
