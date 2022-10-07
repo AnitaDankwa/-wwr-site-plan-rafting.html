@@ -11,8 +11,8 @@ body {
 }
 header {
     color: black ;
-    background-color: aquamarine;
-}
+    background-color: rgb(159, 208, 247)}
+
 nav a:hover {
     background-color: black;
     color: #d9c2a3;
