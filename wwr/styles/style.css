@@ -1,7 +1,7 @@
 
 #background {
     height: 725px;
-    background-color: rgb(226, 185, 192);
+    background-color: whitesmoke;
 }
                 
 body {
@@ -13,7 +13,7 @@ body {
 }
 header {
     color: black ;
-    background-color: rgb(159, 208, 247)}
+    background-color: rgb(163, 211, 251)}
 
 nav a:hover {
     background-color: black;
@@ -47,8 +47,8 @@ nav a {
     color: pink;
 }
 
-.home-title{
-    color: black;
+.home-title h4{
+    color: cyan;
 }
 
 #hero-msg h1, #hero-msg h4{
@@ -58,10 +58,20 @@ nav a {
 .book, .join{
     background-color: bisque;
     color: black;
+    text-decoration: none;
 }
 
 .book:hover, .join:hover{
     background-color: bisque;
+    color: #d4ac03;
+}
+
+.msg h2{
+    color: white;
+}
+
+.msg P{
+    color: white;
 }
 
 .msg{
@@ -80,8 +90,6 @@ main section{
     text-align: center;
 }
 
-
-
 .book, .join a:hover{
     text-align: center;
     color: black;
@@ -90,15 +98,18 @@ main section{
 
 footer a{
     text-decoration: none;
+    color: white;
 }
 
 footer{
     background-color: rgb(126, 126, 135);
     font-size: 1.2em;
+    color: cyan;
 }   
 
 footer p a:hover {
     text-decoration: underline;
+    color: cyan;
 }    
 
                     
