@@ -8,6 +8,8 @@ body {
     max-width: 1600px;
     margin: 0 auto;
     padding: 4em;
+    background-color: #fcfbfb;
+    color: black;
 }
 header {
     color: black ;
@@ -15,7 +17,7 @@ header {
 
 nav a:hover {
     background-color: black;
-    color: #d9c2a3;
+    color: #396E94;
 }   
 
 #content{
@@ -40,12 +42,30 @@ nav a:hover {
 
 nav a {
     text-align: center;
-    color: #fcfbfb;
+    background-color: white;
     text-decoration: none;
+    color: pink;
+}
+
+.home-title{
+    color: black;
 }
 
 #hero-msg h1, #hero-msg h4{
     text-align: center;
+}
+
+.book, .join{
+    background-color: bisque;
+    color: black;
+}
+
+.book:hover, .join:hover{
+    background-color: bisque;
+}
+
+.msg{
+    background-color: rgb(126, 126, 135);
 }
 
 .button-box{
@@ -53,7 +73,7 @@ nav a {
 }
 
 .button-box :hover{
-    color: yellow;
+    color: #d9c2a3;
 }
 
 main section{
@@ -72,11 +92,11 @@ footer a{
     text-decoration: none;
 }
 
-footer p {
+footer{
     background-color: rgb(126, 126, 135);
     font-size: 1.2em;
+}   
 
-}     
 footer p a:hover {
     text-decoration: underline;
 }    
