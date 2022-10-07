@@ -52,6 +52,10 @@ nav a {
     text-align: center;
 }
 
+.button-box :hover{
+    color: yellow;
+}
+
 
 
 .book, .join a:hover{
