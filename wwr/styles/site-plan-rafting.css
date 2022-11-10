@@ -38,9 +38,10 @@ body {
 }
 img {
   display: block;
-  margin: 0 auto;
-  max-width: 300px;
+  margin: 5px;
+  max-width: 100px;
   background-color: #151E3F;
+  float:left;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
